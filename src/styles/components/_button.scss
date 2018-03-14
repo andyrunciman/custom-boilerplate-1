@@ -1,0 +1,28 @@
+.btn{
+    border:none;
+    padding:$s-size;
+    font-weight: 300;
+    font-size:1.8rem;
+    cursor: pointer;
+
+    &--primary{
+        background-color:$blue;
+        color:white;
+    }
+
+    &--primary-link{
+        background-color:$blue;
+        color:white;
+        display:inline-block;
+        text-decoration: none;
+    }
+
+    &--link{
+        background-color: transparent;
+        color:white;
+        font-weight: 200;
+    }
+    
+
+
+}

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Header correctly 1`] = `
+<header
+  className="header"
+>
+  <div
+    className="header__box"
+  >
+    <NavLink
+      activeClassName="active"
+      ariaCurrent="true"
+      className="header__heading"
+      exact={true}
+      to="/dashboard"
+    >
+      Boilerplate
+    </NavLink>
+    <button
+      className="btn btn--link"
+      onClick={[Function]}
+    >
+      Logout
+    </button>
+  </div>
+</header>
+`;
